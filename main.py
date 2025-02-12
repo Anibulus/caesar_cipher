@@ -25,6 +25,7 @@ def main_loop():
 
 def input_encode(action: int):
     text = input("\nWrite the secret message: ")
+    result : str = ""
     if(action == 1):
         result = encode(text, 'code')
     elif(action == 2):
